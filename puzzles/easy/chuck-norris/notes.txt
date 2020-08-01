@@ -1,0 +1,24 @@
+Input
+    Ascii Characters
+
+Output
+    String consisting of '0' and ' '
+
+Example I/O
+C -> 0 0 00 0000 0 00
+    C in binary is 10000011
+
+CC -> 0 0 00 0000 0 000 00 0000 0 00
+    CC in binary is 1000001110000011
+
+Method
+
+Read in input into a String Vec A
+convert A to a vector of Ascii binary values B
+Loop through B
+    if b[i] matches, continue, increment count
+    if b[i] changed, convert to zeros, reset count
+        append converted values to vec C
+print vec C
+
+

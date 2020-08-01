@@ -30,7 +30,11 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ac27191-afda-4308-8ead-503ea0c031ed" name="Default Changelist" comment="" />
+    <list default="true" id="1ac27191-afda-4308-8ead-503ea0c031ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,11 +63,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
-  <component name="RunManager">
-    <configuration name="Run chuck-norris" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+  <component name="RunManager" selected="Cargo Command.Run chuck-norris (1)">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run chuck-norris (1)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package chuck-norris --bin chuck-norris" />
       <option name="allFeatures" value="false" />
@@ -75,19 +85,31 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="Run chuck-norris" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package chuck-norris --bin chuck-norris &lt; input1.txt" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo Command.Run chuck-norris (1)" />
         <item itemvalue="Cargo Command.Run chuck-norris" />
       </list>
     </recent_temporary>
   </component>
   <component name="RustProjectSettings">
+    <option name="externalLinter" value="Clippy" />
+    <option name="runExternalLinterOnTheFly" value="true" />
+    <option name="runRustfmtOnSave" value="true" />
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -97,7 +119,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596217626512</updated>
-      <workItem from="1596217627642" duration="339000" />
+      <workItem from="1596217627642" duration="6263000" />
+      <workItem from="1596236716864" duration="6743000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Checkin">
       <created>1596217910837</created>
@@ -122,15 +145,79 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Checkin" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial Checkin" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="849" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596217647958">
+    <state x="601" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596230949182">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="849" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1596217647958" />
+    <state x="601" y="205" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1596230949182" />
+    <state x="1308" y="307" key="#xdebugger.XInspectDialog" timestamp="1596259159515">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="1308" y="307" key="#xdebugger.XInspectDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1596259159515" />
+    <state x="1203" y="306" key="#xdebugger.evaluate" timestamp="1596259174661">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="1203" y="306" key="#xdebugger.evaluate/0.40.1920.1040@0.40.1920.1040" timestamp="1596259174661" />
+    <state width="914" height="339" key="GridCell.Tab.0.bottom" timestamp="1596259250448">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="914" height="339" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1596259250448" />
+    <state width="914" height="339" key="GridCell.Tab.0.center" timestamp="1596259250447">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="914" height="339" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1596259250447" />
+    <state width="914" height="339" key="GridCell.Tab.0.left" timestamp="1596259250447">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="914" height="339" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1596259250447" />
+    <state width="914" height="339" key="GridCell.Tab.0.right" timestamp="1596259250448">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="914" height="339" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1596259250448" />
+    <state width="914" height="339" key="GridCell.Tab.1.bottom" timestamp="1596259257050">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="914" height="339" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1596259257050" />
+    <state width="914" height="339" key="GridCell.Tab.1.center" timestamp="1596259257050">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="914" height="339" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1596259257050" />
+    <state width="914" height="339" key="GridCell.Tab.1.left" timestamp="1596259257049">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="914" height="339" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1596259257049" />
+    <state width="914" height="339" key="GridCell.Tab.1.right" timestamp="1596259257050">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="914" height="339" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1596259257050" />
+    <state x="928" y="195" key="SettingsEditor" timestamp="1596258246908">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="928" y="195" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1596258246908" />
+    <state x="1260" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596236823338">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="1260" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1596236823338" />
+    <state x="1103" y="269" key="search.everywhere.popup" timestamp="1596232389833">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="269" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1596232389833" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/main.rs</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
